@@ -99,6 +99,9 @@ AdminLTE 1.x can be easily upgraded to 2.x using [this guide](https://almsaeedst
 
 Change log
 ----------
+**v2.3.…:**
+- Users now must explicitly include Google fonts themselves
+
 **v2.3.1:**
 - Fix sidebar issue #676
 - Fix BootLint warnings and errors
