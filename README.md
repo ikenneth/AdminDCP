@@ -1,27 +1,18 @@
-**I apologize to everyone for my slow rate of response and development recently.** This is my final semester and I am very busy. Although I usually work on AdminLTE a few hours a week, there are weeks full of exams and assignments. Thanks for your understanding.
 Introduction
 ============
 
-**AdminLTE** -- is a fully responsive admin template. Based on **[Bootstrap 3](https://github.com/twbs/bootstrap)** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself.
-
-**Download & Preview on [Almsaeed Studio](https://almsaeedstudio.com)**
-
-Looking for Premium Templates?
-------------------------------
-**Almsaeed studio just opened a new premium templates page. Hand picked to insure the best quality and the most affordable prices. Visit https://almsaeedstudio.com/premium for more information.**
-
-
-!["AdminLTE Presentation"] (https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
+**AdminDCP** is a drop-in replacement for AdminLTE that can actually be used in production environments and does not include any resources from external servers. Most of the documentation below is unchanged from AdminLTE:
 
 **AdminLTE** has been carefully coded with clear comments in all of its JS, LESS and HTML files. LESS has been used to increase code customizability.
+AdminLTE is a fully responsive admin template. Based on **[Bootstrap 3](https://github.com/twbs/bootstrap)** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
 
 Installation
 ------------
-There are multiple ways to install AdminLTE.
+There are multiple ways to install AdminDCP.
 
 ####Download:
 
-Download from Github or [visit Almsaeed Studio](https://almsaeedstudio.com) and download the latest release.
+Download from Github.
 
 ####Using The Command Line:
 
@@ -30,31 +21,26 @@ Download from Github or [visit Almsaeed Studio](https://almsaeedstudio.com) and 
 - Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
 - Clone to your machine
 ```
-git clone https://github.com/YOUR_USERNAME/AdminLTE.git
+git clone https://github.com/YOUR_USERNAME/AdminDCP.git
 ```
 
 **Bower**
 
 ```
-bower install admin-lte
+bower install admin-dcp
 ```
 
-**npm**
+**npm** (currently not)
 
 ```
-npm install --save admin-lte
-```
-
-**Composer**
-
-```
-composer require "almasaeed2010/adminlte=~2.0"
+npm install --save admin-dcp
 ```
 
 Documentation
 -------------
 Visit the [online documentation](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html) for the most
 updated guide. Information will be added on a weekly basis.
+Do note that this documentation is for AdminLTE which automatically loads the “Source Sans Pro” font; in AdminDCP, you will need to include a suitable font and/or change the relevant font style themselves.
 
 Browser Support
 ---------------
@@ -69,7 +55,7 @@ Contribution
 Contribution are always **welcome and recommended**! Here is how:
 
 - Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/AdminLTE.git```
+- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/AdminDCP.git```
 - Make your changes
 - Create a pull request
 
@@ -85,6 +71,8 @@ License
 AdminLTE is an open source project by [Almsaeed Studio](https://almsaeedstudio.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). Almsaeed Studio
 reserves the right to change the license of future releases.
 
+AdminDCP is a fork of AdminLTE by [tarent solutions GmbH](https://www.tarent.de/) and provided under the very same MIT licence.
+
 Todo List
 ---------
 - ~~Light sidebar colors~~ (Done v2.1.0)
@@ -95,12 +83,13 @@ Todo List
 
 Legacy Releases
 ----------------
-AdminLTE 1.x can be easily upgraded to 2.x using [this guide](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html#upgrade), but if you intend to keep using AdminLTE 1.x, you can download the latest release from the [releases](https://github.com/almasaeed2010/AdminLTE/releases) section above.
+AdminLTE 1.x can be easily upgraded to 2.x using [this guide](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html#upgrade), but if you intend to keep using AdminLTE 1.x, you can download the latest release from the [releases](https://github.com/tarent/AdminDCP) section above.
 
 Change log
 ----------
-**v2.3.…:**
-- Users now must explicitly include Google fonts themselves
+**AdminDCP 2.3.3:**
+- Automatic loading non-free external resources (Google fonts) is removed
+- Users now must explicitly include fonts themselves
 
 **v2.3.1:**
 - Fix sidebar issue #676
@@ -230,9 +219,3 @@ Image Credits
 [Unsplash](https://unsplash.com/)
 
 [Uifaces](http://uifaces.com/)
-
-Donations
----------
-Donations are **greatly appreciated!**
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "AdminLTE Presentation")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=629XCUSXBHCBC "Donate")

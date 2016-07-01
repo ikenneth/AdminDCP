@@ -1,7 +1,7 @@
 {
-  "name": "almasaeed2010/adminlte",
-  "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
-  "homepage": "http://almsaeedstudio.com/",
+  "name": "tarent/admindcp",
+  "description": "AdminDCP - admin control panel and dashboard based on AdminLTE and Bootstrap 3",
+  "homepage": "https://github.com/tarent/AdminDCP",
   "keywords": [
     "css",
     "js",
@@ -15,12 +15,16 @@
   ],
   "authors": [
     {
+      "name": "mirabilos",
+      "email": "t.glaser@tarent.de"
+    },
+    {
       "name": "Abdullah Almsaeed",
       "email": "support@almsaeedstudio.com"
     }
   ],
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/almasaeed2010/AdminLTE/issues"
+    "issues": "https://github.com/tarent/AdminDCP/issues"
   }
 }

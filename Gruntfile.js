@@ -1,4 +1,4 @@
-// AdminLTE Gruntfile
+// AdminDCP Gruntfile
 module.exports = function (grunt) {
 
   'use strict';
