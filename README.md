@@ -30,7 +30,7 @@ git clone https://github.com/YOUR_USERNAME/AdminDCP.git
 bower install admin-dcp
 ```
 
-**npm** (currently not)
+**npm**
 
 ```
 npm install --save admin-dcp
